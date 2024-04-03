@@ -1,18 +1,19 @@
-import { View, Text, SafeAreaView, ScrollView } from 'react-native'
-import React from 'react'
-import FlatCard from './components/FlatCard'
-import NavBar from './components/NavBar'
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
+import React from 'react';
+import FlatCard from './components/FlatCard';
+import ElevatedCard from './components/ElevatedCard';
+import NavBar from './components/NavBar';
 
 const appPro = () => {
   return (
     <SafeAreaView>
       <ScrollView>
         <NavBar />
-        <Text>appPro</Text>
         <FlatCard />
+        <ElevatedCard />
       </ScrollView>
     </SafeAreaView>
   );
-}
+};
 
-export default appPro
+export default appPro;
